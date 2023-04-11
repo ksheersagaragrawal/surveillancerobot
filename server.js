@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'surveillancerobot/public')));
+app.use(express.static(path.join(__dirname, '/')));
 
 let x = 0;
 
