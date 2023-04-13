@@ -8,13 +8,13 @@ app.use(express.static(path.join(__dirname, '/')));
 
 let x = 0;
 
-app.post('/data', function(req, res) {
+app.post('/Data/data.json', function(req, res) {
   x = req.body.x;
   console.log(x);
   res.sendStatus(200);
 });
 
-app.get('/data', function(req, res) {
+app.get('/Data/data.json', function(req, res) {
   res.json({ x: x });
   res.sendStatus(200);
 });
