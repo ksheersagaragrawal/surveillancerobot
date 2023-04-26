@@ -17,7 +17,7 @@
         <ul>
             <li><a href="#robot-control">Robot Control</a></li>
             <li><a href="#current-location">Current Location</a></li>
-            <li><a href="#live-feed">Live Camera Feed</a></li>
+            <li><a href="http://192.168.24.63/" target="_blank">Live Camera Feed</a></li>
             <li><a href="#temperature-humidity">Temperature and Humidity</a></li>
         </ul>
     </nav>
@@ -50,7 +50,7 @@
                 }
                 var payload = { x: x };
                 const postData = JSON.stringify(payload);
-                fetch('/data.json', {
+                fetch('/data', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json'
@@ -109,13 +109,10 @@
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpDJ0FydrrkR2jDshjvW9ztsiyG0xfxN4"></script>
             <div id="map"></div>
         </section>
-        <section id="live-feed">
-            <h2>Live Camera Feed</h2>
-            <div id="camera-feed"></div>
-        </section>
+       
         <section id="temperature-humidity">
             <h2>Temperature and Humidity</h2>
-            <p>Temperature in Celsius: <span id="tem"></span></p>
+            <p>Temperature in Celsius:<span id="tem"></span></p>
             <p>Humidity: <span id="hum"></span></p>
         </section>
     </main>

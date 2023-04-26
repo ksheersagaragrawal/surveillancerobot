@@ -11,7 +11,7 @@ function initMap() {
     
     function fetchcoordinates() {
         // Make a GET request to the server endpoint
-        fetch('http://192.168.197.130/')
+        fetch('http://192.168.144.130/')
             .then(response => response.json())
             .then(data => {
                 // Update the marker position and center the map on the new location
