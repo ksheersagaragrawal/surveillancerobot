@@ -21,7 +21,7 @@ app.get('/data', function(req, res) {
 });
 
 app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + './public/index.html');
 });
 
 app.listen(3000,'192.168.24.33', function() {
