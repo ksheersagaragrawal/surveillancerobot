@@ -1,5 +1,4 @@
-# Project Title
-IOT Surveillance Robot
+# IOT Surveillance Robot
 
 ## Description
 IOT Surveillance Robot is a sentry rover designed for wide-range accessibility. It operates on the NodeMCU protocol, enabling seamless communication and control. 
@@ -45,6 +44,8 @@ IOT Surveillance Robot is a sentry rover designed for wide-range accessibility. 
 - It facilitates the exchange of image data, sensor readings, and control signals.
 - Data is formatted as JSON for simplicity and flexibility.
 - HTTP communication is used, with custom commands for specific actions.
+
+  ![nodemcu](https://github.com/ksheersagaragrawal/surveillancerobot/assets/76050795/8d750410-30c9-4f70-b264-3f1dc329e5f9)
 
 ## Operation
 
