@@ -49,7 +49,7 @@ IOT Surveillance Robot is a sentry rover designed for wide-range accessibility. 
 
 ## Operation
 
-The Surveillance Robot can be controlled remotely through a user-friendly web application hosted at [https://ksheersagaragrawal.github.io/surveillancerobot/](https://ksheersagaragrawal.github.io/surveillancerobot/). The web interface provides intuitive controls for real-time interaction with the robot. 
+The Surveillance Robot can be controlled remotely through a user-friendly web application hosted at [https://ksheersagaragrawal.github.io/surveillancerobot/src/public/](https://ksheersagaragrawal.github.io/surveillancerobot/src/public/). The web interface provides intuitive controls for real-time interaction with the robot. 
 
 1. **Surveillance Robot:**
    - The surveillance robot is designed for unmanned spaces. It has no range constraints and operates on battery power and internet connectivity.
