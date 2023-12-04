@@ -87,4 +87,4 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 
 ## Support
 
-If you have any questions, concerns, or need support regarding the Surveillance Robot project, feel free to reach out. We are here to assist you in making the most of this innovative solution.
+If you have any questions, concerns, or need support regarding the Surveillance Robot project, feel free to reach out. I am here to assist you in making the most of this innovative solution.
